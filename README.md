@@ -5,7 +5,7 @@ Every individual python file does some form of processing of the genome sequence
 
 List of python files with description:
 
--DNAtoRNA.py - Takes a DNA string input and returns a RNA string output
+-DNAtoRNA.py - Takes a DNA string input and returns a RNA string output\n
 -RevComp.py - Takes a DNA string input and returns the reverse complement DNA string
 -pattern_match_indexing.py - Takes a DNA pattern and DNA sequence input, returns the indexes of the patterns inside the sequence
 -pattern_search.py - Takes a pattern input and tries to find it in a string input. Outputs how many times said string containts the pattern.
