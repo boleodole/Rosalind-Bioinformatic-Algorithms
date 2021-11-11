@@ -25,4 +25,4 @@ def FrequencyMap(Text, k):
     return freq
 f = open('dataset_7_10.txt', 'r')
 f = f.read()
-print(FindClumps(f, 9, 534, 2))
+print(FindClumps(f, 9, 20, 2))
