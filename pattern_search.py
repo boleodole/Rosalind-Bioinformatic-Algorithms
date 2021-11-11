@@ -8,7 +8,7 @@ def PatternCount(Text, Pattern):
 
 Text = "CGCGATACGTTACATACATGATAGACCGCGCGCGATCATATCGCGATTATC"
 
-Pattern = "CGCG"
+Pattern = "GAT"
 
 count = PatternCount(Text, Pattern)
 print(count)
