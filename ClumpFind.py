@@ -25,4 +25,4 @@ def FrequencyMap(Text, k):
     return freq
 f = open('dataset_7_10.txt', 'r')
 f = f.read()
-print(FindClumps(f, 9, 534, 2))
+print(FindClumps(f, 9, 20, 2)) # The result shows that there are 5 9-mers that appear 2 times in the given DNA seq.
