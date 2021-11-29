@@ -14,4 +14,5 @@ List of python files with description:
 -ClumpFind.py - Slides a 'window' of a certain length (L) trough the DNA sequence input (Text) and tries to find certain k-mers (k), and finally outputs the k-mers if they appear (t) or more times. <br />
 -hamming_distance.py - This function matches 2 strings of the same length and searches for mismatches. If there are more mismatches than imposed, then the string is filtered. <br />
 -app_pattern_match.py - Takes a k-mer (DNA pattern) and a DNA sequence input and tries to find the k-mer frequency within the sequence with a limited number of mismatches. <br />
--skewdiagram.py - 
+-skewdiagram.py - Takes a DNA sequence input, returns the indices of the minimum skew values
+-skewlist.py - Returns a list of gradual changes of skew values
