@@ -4,13 +4,7 @@ def skew_diagram(Genome):
     n = len(Genome)
     for i in range(n):
         for nucleotide in Genome[i]:
-            if nucleotide == 'A':
-                status = status + 0
-                skew.append(status)
-            elif nucleotide == 'T':
-                status = status + 0
-                skew.append(status)
-            elif nucleotide == 'C':
+            if nucleotide == 'C':
                 status = status - 1
                 skew.append(status)
             elif nucleotide == 'G':
